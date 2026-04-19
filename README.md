@@ -8,4 +8,4 @@ then shows a summary of your performance.
 1. Open the file
 midterm_solution.py
 2. Run using Python
-3. Follow the instructions in the proram
+3. Follow the instructions in the program
