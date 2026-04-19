@@ -88,3 +88,15 @@ for i in range(len(matches)):
           " | KDA: " + str(round(m["kda"], 2)) +
           " | " + res +
           " | " + m["tag"])
+
+print("---------------------------------------------")
+print("Matches Played : " + str(total))
+print("Wins : " + str(wins) + "  |  Losses : " + str(losses))
+print("Win Rate       : " + str(win_rate) + "%")
+
+if best_match_index != -1:
+    best = matches[best_match_index]
+    print("Best Match     : [" + str(best_match_index + 1) + "] " +
+          best["hero"] + " (KDA: " + str(round(best["kda"], 2)) + ")")
+
+print("=============================================")
